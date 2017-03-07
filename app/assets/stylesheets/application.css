@@ -13,3 +13,64 @@
  *= require_tree .
  *= require_self
  */
+
+ body, html {
+   height: 100%;
+   margin: 0;
+   font: 400 16px/1.8 "Lato", sans-serif;
+   color: #777;
+   position:relative;
+   text-align:center;
+   padding:50px 80px;
+   text-align: justify;
+ }
+
+ .bgimg-1, .bgimg-2 {
+   position: relative;
+   opacity: 0.85;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+ }
+ .bgimg-1 {
+   background-image: url("https://lh3.googleusercontent.com/V-QSfc_MPc0LfN72pEoRqlvIGBB84ipBmYHzTsjj11b3t6xUOOdRl3Wlajf1q44ux3BvViaZBQBpvU7YyftCSZUYtPcNCYy4buVQ9aEZf79visbm_OGDiYpHH45TjmiwZ5MhFS904npnw3vjZeXOmOYYOXow1P-qrmolI_uTCzCRf6Sebv9hNhgAUp1NsOatWn8EbVV05Plo1WPQt0oj3le6eWiZMxAdz2ZcyjYVzUfj3NtoD7dahh__A4SNK7nZ0QUbppAn8m1urRTkCjk0rJnYKVIG-5bulUXEArI9C4r5smgzVUtVfbp3q9jfoHzNvmXMU-77QnLfOrYhMCZprO5WJZVICVuwWz4XFzSirhvTNDmL1eniiHjGT0eObO_ISr5X2J3zfo0YECF9qFfnLnm8i9ONfj4lIOVbXsPAv_Py567-JCfjpk46Oey5L9FFJo0OH9K8-VCoLIgp8YE5ly4kFl2GDpgX0epywzoSlfuuta4y9rt-sG6lC0Nci4-aiQJV-LKS7qIik2zSqiV-xX7sR5e2wH3klbZVI2X8-oIrvP49j8u943PvPeo3kNfE3JwmTAclfn6qV9bIU7poI9IoffaKBz1Jn5enTlP5GvVeVcNlyAkf=w975-h548-no");
+   min-height: 100%;
+ }
+
+ .bgimg-2 {
+   background-image: url("https://lh3.googleusercontent.com/1LJ3aU8WWc2PbUCVqvj1Y1oZhjl56b0xrGGanRRypWKkOpXJxjTLvveFjDH7hvqQr5WanlyD0IUyIPLZgrZ1e9zkmK2C8u5CG8D_U7TPyGhpTz7lpv1Ilo7d8VE_lTYdPQiiH57k1GlEp1sxzU-BwnnHnqG2S637lRNEHj7olobbuzc5OfLL5AOThdN197O8a9TzWuJ6OTtmrE0oGB2OXWVMTBmMt7YeLzkq_0y4jEGw_p2RF84HdW5TEdhtXAKm83eMNqThgn_OpHP4tx6Hboji0t6dRh159llK9QyWcUrukSuzWQ1jYKt5rse0EjwOpSkLiW1m07GqEe7z__xtR1ejIehsFpWyyWjh5rfHazLm3ljDs_sBCdPUeACggJR28lW5H69xqlJUbq7CicycVIlvNPdl-KZXqa04vTgg4N1tkK8bbpB4dKfHHkcmg_JQi4XGQfr2fHUUeq-Y4xblA2INuGDJJZT75BU1n-Y5hTgoWSA415dNMlwNtaCfhgkBpCC1ByhhK-9hwnnWxF3l3d8kLmuryV9K3FfF3j-_oMlh0-XTdxdPLkzKAxopBchfQFWtgDMhGAhYgn3QVZNDRcMttL92MOzqtWYGcNS9GjZYrUtOiHaj=w975-h548-no");
+   min-height: 400px;
+ }
+
+ .caption {
+   position: absolute;
+   left: 0;
+   top: 50%;
+   width: 100%;
+   text-align: center;
+   color: #000;
+ }
+
+ .caption span.border {
+   background-color: #111;
+   color: #fff;
+   padding: 18px;
+   font-size: 25px;
+   letter-spacing: 10px;
+ }
+
+ h3 {
+   letter-spacing: 5px;
+   text-transform: uppercase;
+   font: 20px "Lato", sans-serif;
+   color: #111;
+ }
+
+ lh {
+   letter-spacing: 3px;
+   text-transform: uppercase;
+   font: 15px, sans-serif;
+   color: #383838;
+ }
